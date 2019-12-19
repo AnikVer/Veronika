@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Snyder';
+    src: local('Snyder Speed Brush Cyr'), 
+    url(18046.ttf);
+}
+@font-face{
+        font-family: 'Segoe UI Light';
+        src: url('SegoeUI-Light.woff') format('woff'),
+            url('SegoeUI-Light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('SegoeUI-Bold.woff') format('woff'),
+    url('SegoeUI-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
