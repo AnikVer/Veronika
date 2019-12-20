@@ -54,6 +54,8 @@
 .content{
     display: flex;
     align-items: center;
+    background-color: #ececec;
+    padding-top: 82px;
   
 }
 .before_text1{
@@ -61,10 +63,22 @@
     background-color: #ececec;
 }
 .text1{
-    height: 308px;
     background-color: #ececec;
     justify-content: center;
-        
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;      
+}
+.text2{
+    background-color: #ececec;
+    justify-content: center;
+    font-size: 22px;
+    padding-bottom: 82px;
+
+}
+.card_photo{
+    justify-content: center;
+    background-color: #ececec;
 }
 
 .footer{
