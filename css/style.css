@@ -53,10 +53,17 @@
     }
 .content{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #ececec;
     padding-top: 82px;
-  
+    justify-content: center;
+      
+}
+.for_content{
+    background-image: url(../img/bg_content.png);
+    
+
 }
 .before_text1{
     height: 212px;
