@@ -7,57 +7,131 @@
     <title>Unique Adventure</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 <body>
     <div class="container-fluid">
 
         <div class="row menu">
-            <div class="col-md-12">
-        
-                <nav class="navbar sticky-top navbar-expand-sm">
-                
-                    <a class="navbar-brand mr-auto logo" href="index.html">
-                        <span class="logo1">UNIQUE</span> 
-                        <span class="logo2">Adventure</span>   
-                    </a>
-                                                  
-                    <ul class="navbar-nav mr-auto nav_menu">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about_us.html">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                    </ul>
-                    <div class="contact">
-                        <button type="button" class="btn btn-primary">Contact us</button>
-                    </div>                   
-                </nav>
-                             
+            <!-- <div class="before_logo">
+
+            </div> -->
+            
+            <div class="menu_logo">
+                <a class="navbar-brand" href="index.html">
+                <span class="logo1">UNIQUE</span> 
+                <span class="logo2">Adventure</span>   
+                </a>
             </div>
-            
-            
-            
+            <!-- <div class="before_menu">
 
+            </div> -->
 
+            <div class="menu_nav">
+                <ul class="navbar-nav  menu_nav2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Contact us</button>
+
+                    </li>
+                </ul>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="exampleModalLongTitle"> Contact</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <strong>We are located:</strong>  192, Rodionova st., Nizhniy Novgorod, Russia.
+                                <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2213.3923547416066!2d44.0811871!3d56.3058014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d4c0bd09502d%3A0x450794d3f252e67c!2z0J3QuNC20LXQs9C-0YDQvtC00YHQutC40Lkg0JjQvdGB0YLQuNGC0YPRgiDQmNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINCi0LXRhdC90L7Qu9C-0LPQuNC5!5e0!3m2!1sru!2sru!4v1577141410146!5m2!1sru!2sru" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe></a>
+                                </p>
+                                <p>
+                                <strong>You can phone us</strong> <a href="tel: +123456789">+123456789</a>
+                                </p>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+                                  
         </div>
 
         <div class="row promo">
-            <div class="col-12 img_promo">
-                    <div class="row ads">
-                        <img src="img/block1.png" alt="photo">
-                    </div>
-        
-                    <div class="ask_button">
-                        <button type="button" class="btn btn-success btn-lg">Ok ask me</button>
-                    </div>
-        
+            <div class="col-12 promo_text">
+
+                <div class="col-12 promo_text1">
+                    I Like To Ask The Same Question
+                </div>
+
+                <div class="col-12 promo_text2">
+                    Many Many Times
+                </div>
+
             </div>
-            
+
+            <div class="col-12 img_promo">
+                <div class="ask">
+                    <button type="button" class="btn btn-success ask_button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ok ask me</button>
+                </div>
+                <div class="mini_img">
+                    <a href="#cityscape"><img src="img/block1.png" alt="photo"></a>
+                    <!-- New-York -->
+                </div>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="form-group">
+                              <label for="recipient-name" class="col-form-label">Letter subject</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+
         </div>
+
         <div class="row before_text1">
 
         </div>
@@ -73,7 +147,7 @@
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, quas!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a name="cityscape" href="cityscape.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -106,23 +180,44 @@
 
         <div class="row content">
             
-            <div class="col-2 sites for_content">
-                <a href="earth.html"><img src="img/earth.png" alt="Earth"></a>
-                Sites the world
+            <div class="content_img">
+                <div class="for_content">
+                    <a href="earth.html"><img src="img/earth.png" alt="Earth"></a>
+                </div>
+                
+                <div class="content_text">
+                    Sites the world
+                </div>
+                
             </div>
-            <div class="col-2 shopping for_content">  
-                <a href="shopping.html"><img src="img/basket.png" alt="shopping"></a>  
+            <div class="content_img">  
+                <div class="for_content">
+                    <a href="shopping.html"><img src="img/basket.png" alt="shopping"></a>  
+                </div>
+                <div class="content_text">
                 Shopping
+                </div>  
             </div>
 
-            <div class="col-2 photography for_content">
-                <a href="camera.html"><img src="img/camera.png" alt="photo"></a>
-                Photography
+            <div class="content_img">
+                <div class="for_content">
+                    <a href="camera.html"><img src="img/camera.png" alt="photo"></a>
+                </div>
+                <div class="content_text">
+                    Photography
+                </div>
+                                
             </div>
 
-            <div class="col-2 find for_content">
-                <a href="search.html"><img src="img/search.png" alt="search"></a>
-                Find the best
+            <div class="content_img">
+                <div class="for_content">
+                    <a href="search.html"><img src="img/search.png" alt="search"></a>
+                </div>
+                <div class="content_text">
+                    Find the best
+                </div>
+                
+                
             </div>
 
         </div>
